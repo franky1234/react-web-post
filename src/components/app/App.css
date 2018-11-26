@@ -17,3 +17,7 @@
     transform: rotate(360deg);
   }
 }
+
+section {
+  background-color: #EFF0F1;
+}

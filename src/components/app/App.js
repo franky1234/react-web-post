@@ -1,4 +1,5 @@
 import React from 'react';
+import { Routes } from '../routes/index';
 import logo from '../../img/logo.svg';
 import './App.css';
 
@@ -13,6 +14,9 @@ const App = () => {
           <div className="item">Home</div>
         </div>
       </header>
+      <section>
+        <Routes />
+      </section>
     </div>
   );
 }
